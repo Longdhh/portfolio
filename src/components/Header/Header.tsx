@@ -6,7 +6,7 @@ function Header() {
   return (
     <nav className={clsx("navbar navbar-expand", styles.navbar)}>
       <div className="container">
-        <Link className={clsx(styles.navbarName, "navbar-brand")} to="/portfolio/home">
+        <Link className={clsx(styles.navbarName, "navbar-brand")} to="/portfolio/">
           Đỗ Hữu Hải Long
         </Link>
         <ul className="navbar-nav d-flex">
