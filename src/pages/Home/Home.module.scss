@@ -8,7 +8,7 @@
 
 .image {
   width: 100%;
-  height: 380px;
+  height: 200px;
   object-fit: cover;
   object-position: top left;
   opacity: 1;
@@ -42,4 +42,17 @@
   cursor: pointer;
   font-family: "Oswald", serif;
   color: black;
+}
+
+
+@media (min-width: 1200px) {
+  .image {
+    height: 380px;
+  }
+}
+
+@media (min-width: 576px) {
+  .image {
+    height: 500px;
+  }
 }

@@ -12,14 +12,13 @@
 
 .descriptionBlock {
   margin-top: 40px;
-  width: 800px;
+  width: 100%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .descriptionTitle {
-  text-align: center;
   font-family: "Oswald", serif;
 }
 .description {
@@ -35,8 +34,9 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  height: 760px;
+
   margin-top: 40px;
+  height: 400px;
 }
 
 .backButton {
@@ -60,4 +60,14 @@
 .backButton:hover {
   background-position: left;
   color: black;
+}
+
+@media (min-width: 768px) {
+  .descriptionBlock {
+    width: 800px;
+  }
+
+  .image {
+    height: 760px;
+  }
 }

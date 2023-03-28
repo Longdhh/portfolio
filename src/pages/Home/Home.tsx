@@ -17,9 +17,9 @@ function Home() {
           Các dự án cá nhân
         </motion.h1>
         <div className={clsx(styles.projects)}>
-          <div className="row">
+          <div className="row gy-3">
             <motion.div
-              className="col col-6"
+              className="col col-xl-6 col-12"
               initial={{ opacity: 0, y: "-5vh" }}
               animate={{ opacity: 1, y: "0" }}
               exit={{ opacity: 0, y: "-5vh" }}
@@ -28,14 +28,14 @@ function Home() {
               <Link className={clsx(styles.projectItem)} to="/administrator">
                 <img
                   className={clsx(styles.image)}
-                  src="../../src/assets/img/project1.png"
+                  src="assets/img/project1.png"
                   alt="JobOfferer Administrator"
                 />
                 <p className={clsx(styles.projectName)}>Administrator</p>
               </Link>
             </motion.div>
             <motion.div
-              className="col col-6"
+              className="col col-xl-6 col-12"
               initial={{ opacity: 0, y: "-5vh" }}
               animate={{ opacity: 1, y: "0" }}
               exit={{ opacity: 0, y: "-5vh" }}
@@ -44,7 +44,7 @@ function Home() {
               <Link className={clsx(styles.projectItem)} to="/jobofferer">
                 <img
                   className={clsx(styles.image)}
-                  src="../../src/assets/img/project2.png"
+                  src="assets/img/project2.png"
                   alt="JobOfferer Administrator"
                 />
                 <p className={clsx(styles.projectName)}>JobOfferer</p>

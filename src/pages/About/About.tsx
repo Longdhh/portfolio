@@ -1,12 +1,13 @@
 import styles from "./About.module.scss";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
     <div className="about">
       <div className="container">
         <div className="row">
-          <div className="col col-6">
+          <div className="col col-xl-6 col-12">
             <motion.h1
               className={styles.title}
               initial={{ opacity: 0 }}
@@ -51,7 +52,7 @@ function About() {
               dùng.
             </motion.p>
           </div>
-          <div className="col col-6">
+          <div className="col col-xl-6 col-12">
             <motion.div
               className={styles.imgHolder}
               initial={{ opacity: 0, y: "-5vh" }}
@@ -61,7 +62,7 @@ function About() {
             >
               <img
                 className={styles.portrait}
-                src="../../src/assets/img/Untitled.png"
+                src="assets/img/Untitled.png"
                 alt=""
               />
             </motion.div>
@@ -80,6 +81,16 @@ function About() {
             </motion.div>
           </div>
         </div>
+        <motion.div
+          initial={{ opacity: 0, y: "-5vh" }}
+          animate={{ opacity: 1, y: "0" }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5, delay: 1.3 }}
+        >
+          <Link className={styles.backButton} to="/">
+            Quay về trang chủ
+          </Link>
+        </motion.div>
       </div>
     </div>
   );

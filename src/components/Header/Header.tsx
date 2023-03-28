@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <nav className={clsx("navbar navbar-expand-lg", styles.navbar)}>
+    <nav className={clsx("navbar navbar-expand", styles.navbar)}>
       <div className="container">
         <Link className={clsx(styles.navbarName, "navbar-brand")} to="/">
           Đỗ Hữu Hải Long
