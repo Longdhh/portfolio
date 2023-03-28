@@ -6,7 +6,7 @@ function Header() {
   return (
     <nav className={clsx("navbar navbar-expand", styles.navbar)}>
       <div className="container">
-        <Link className={clsx(styles.navbarName, "navbar-brand")} to="/">
+        <Link className={clsx(styles.navbarName, "navbar-brand")} to="/portfolio/home">
           Đỗ Hữu Hải Long
         </Link>
         <ul className="navbar-nav d-flex">
@@ -33,7 +33,7 @@ function Header() {
             </a>
           </li>
           <li className={clsx("nav-item", styles.navItem)}>
-            <Link className={clsx("nav-link", styles.navLink)} to="/about">
+            <Link className={clsx("nav-link", styles.navLink)} to="/portfolio/about">
               Giới thiệu
             </Link>
           </li>

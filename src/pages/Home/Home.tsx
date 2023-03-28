@@ -25,7 +25,7 @@ function Home() {
               exit={{ opacity: 0, y: "-5vh" }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              <Link className={clsx(styles.projectItem)} to="/administrator">
+              <Link className={clsx(styles.projectItem)} to="/portfolio/administrator">
                 <img
                   className={clsx(styles.image)}
                   src="assets/img/project1.png"
@@ -41,7 +41,7 @@ function Home() {
               exit={{ opacity: 0, y: "-5vh" }}
               transition={{ duration: 0.5, delay: 1 }}
             >
-              <Link className={clsx(styles.projectItem)} to="/jobofferer">
+              <Link className={clsx(styles.projectItem)} to="/portfolio/jobofferer">
                 <img
                   className={clsx(styles.image)}
                   src="assets/img/project2.png"

@@ -107,7 +107,7 @@ function Administrator() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, delay: 2 }}
         >
-          <Link className={styles.backButton} to="/">
+          <Link className={styles.backButton} to="/portfolio/home">
             Quay về trang chủ
           </Link>
         </motion.div>
