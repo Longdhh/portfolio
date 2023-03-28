@@ -1,0 +1,34 @@
+.footerList {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.footer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+.navItem {
+  margin: 0 6px;
+}
+
+.description {
+  text-align: center;
+  font-family: "Oswald", serif;
+}
+
+.facebookLink,
+.twitterLink {
+  transition: color 0.3s ease-in-out;
+}
+.twitterLink:hover {
+  color: #1d9bf0;
+}
+
+.facebookLink:hover {
+  color: #1b74e4;
+}

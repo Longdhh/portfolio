@@ -1,0 +1,29 @@
+.navbar {
+  margin: 5vw auto;
+  padding: 0 5vw;
+}
+
+.navItem {
+  padding: 0 20px;
+}
+
+.navLink {
+  font-family: "Oswald", serif;
+}
+
+.facebookLink,
+.twitterLink {
+  transition: color 0.3s ease-in-out;
+}
+.twitterLink:hover {
+  color: #1d9bf0;
+}
+
+.facebookLink:hover {
+  color: #1b74e4;
+}
+
+.navbarName {
+  font-family: "Oswald", serif;
+  text-decoration: none;
+}
