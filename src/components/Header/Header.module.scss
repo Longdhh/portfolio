@@ -5,10 +5,7 @@
 
 .navItem {
   padding: 0 20px;
-}
-
-.navLink {
-  font-family: "Oswald", serif;
+  font-size: 2rem;
 }
 
 .facebookLink,
@@ -24,6 +21,12 @@
 }
 
 .navbarName {
-  font-family: "Oswald", serif;
   text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+.navbarName:hover {
+  color: black;
+  opacity: .8;
 }

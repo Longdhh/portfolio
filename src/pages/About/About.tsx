@@ -1,6 +1,7 @@
 import styles from "./About.module.scss";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import clsx from "clsx";
 
 function About() {
   return (
@@ -87,7 +88,7 @@ function About() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, delay: 1.3 }}
         >
-          <Link className={styles.backButton} to="/portfolio/">
+          <Link className={clsx(styles.backButton, "text-center")} to="/portfolio/">
             Quay về trang chủ
           </Link>
         </motion.div>

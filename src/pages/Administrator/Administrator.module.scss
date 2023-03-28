@@ -1,12 +1,10 @@
 .title {
   text-align: center;
-  font-family: "Oswald", serif;
   font-size: 4rem;
 }
 
 .subTitle {
   text-align: center;
-  font-family: "Oswald", serif;
   font-size: 2rem;
 }
 
@@ -18,14 +16,9 @@
   transform: translateX(-50%);
 }
 
-.descriptionTitle {
-  font-family: "Oswald", serif;
-}
 .description {
   font-weight: 200;
-  font-family: "Oswald", serif;
   font-size: 2rem;
-  text-align: center;
 }
 .image {
   object-fit: cover;
@@ -34,13 +27,12 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-
   margin-top: 40px;
   height: 400px;
 }
 
 .backButton {
-  width: 600px;
+  width: 100%;
   padding: 10px 0;
   position: relative;
   left: 50%;
@@ -49,11 +41,9 @@
   background: linear-gradient(to left, black 50%, white 50%) right;
   background-size: 200% 100%;
   color: white;
-  border: none;
   transition: all 2s ease;
   text-decoration: none;
   display: block;
-  text-align: center;
   border: 1px solid black;
 }
 
@@ -69,5 +59,9 @@
 
   .image {
     height: 760px;
+  }
+
+  .backButton {
+    width: 600px;
   }
 }

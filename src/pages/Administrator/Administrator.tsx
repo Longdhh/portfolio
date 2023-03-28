@@ -49,7 +49,7 @@ function Administrator() {
             animate={{ opacity: 1, y: "0" }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
-            className={clsx(styles.description, "text-wrap")}
+            className={clsx(styles.description, "text-center")}
           >
             Anh ấy muốn tạo ra một công cụ quản trị hệ thống JobOfferer giúp cho
             việc quản lý hệ thống trở nên dễ dàng hơn
@@ -70,7 +70,7 @@ function Administrator() {
             animate={{ opacity: 1, y: "0" }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, delay: 1.3 }}
-            className={clsx(styles.description, "text-wrap")}
+            className={clsx(styles.description, "text-center")}
           >
             Bootstrap<br></br>
             Angular<br></br>
@@ -92,7 +92,7 @@ function Administrator() {
             animate={{ opacity: 1, y: "0" }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, delay: 1.6 }}
-            className={clsx(styles.description, "text-wrap")}
+            className={clsx(styles.description, "text-center")}
           >
             Responsive giúp người dùng dễ dàng trải nghiệm trên điện thoại
             <br></br>
@@ -107,7 +107,7 @@ function Administrator() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, delay: 2 }}
         >
-          <Link className={styles.backButton} to="/portfolio/">
+          <Link className={clsx(styles.backButton,"text-center")} to="/portfolio/">
             Quay về trang chủ
           </Link>
         </motion.div>

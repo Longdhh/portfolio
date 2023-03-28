@@ -39,7 +39,7 @@ function JobOfferer() {
         </motion.div>
         <div className={styles.descriptionBlock}>
           <motion.h1
-            className={clsx(styles.descriptionTitle, "text-center")}
+            className={"text-center"}
             initial={{ opacity: 0, y: "-5vh" }}
             animate={{ opacity: 1, y: "0" }}
             exit={{ opacity: 0 }}
@@ -62,7 +62,7 @@ function JobOfferer() {
         </div>
         <div className={styles.descriptionBlock}>
           <motion.h1
-            className={clsx(styles.descriptionTitle, "text-center")}
+            className={"text-center"}
             initial={{ opacity: 0, y: "-5vh" }}
             animate={{ opacity: 1, y: "0" }}
             exit={{ opacity: 0 }}
@@ -84,7 +84,7 @@ function JobOfferer() {
         </div>
         <div className={styles.descriptionBlock}>
           <motion.h1
-            className={clsx(styles.descriptionTitle, "text-center")}
+            className={"text-center"}
             initial={{ opacity: 0, y: "-5vh" }}
             animate={{ opacity: 1, y: "0" }}
             exit={{ opacity: 0 }}
@@ -112,7 +112,7 @@ function JobOfferer() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, delay: 2 }}
         >
-          <Link className={styles.backButton} to="/portfolio/">
+          <Link className={clsx(styles.backButton, "text-center")} to="/portfolio/">
             Quay về trang chủ
           </Link>
         </motion.div>

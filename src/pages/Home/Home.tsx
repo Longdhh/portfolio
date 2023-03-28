@@ -8,7 +8,7 @@ function Home() {
     <div className="home">
       <div className="container">
         <motion.h1
-          className={clsx(styles.breadCrumb)}
+          className={clsx(styles.breadCrumb, 'text-center')}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
@@ -16,8 +16,8 @@ function Home() {
         >
           Các dự án cá nhân
         </motion.h1>
-        <div className={clsx(styles.projects)}>
-          <div className="row gy-3">
+        <div className={styles.projects}>
+          <div className="row gy-5">
             <motion.div
               className="col col-xl-6 col-12"
               initial={{ opacity: 0, y: "-5vh" }}
@@ -25,13 +25,13 @@ function Home() {
               exit={{ opacity: 0, y: "-5vh" }}
               transition={{ duration: 0.5, delay: 0.6 }}
             >
-              <Link className={clsx(styles.projectItem)} to="/portfolio/administrator">
+              <Link className={styles.projectItem} to="/portfolio/administrator">
                 <img
-                  className={clsx(styles.image)}
+                  className={styles.image}
                   src="assets/img/project1.png"
                   alt="JobOfferer Administrator"
                 />
-                <p className={clsx(styles.projectName)}>Administrator</p>
+                <p className={styles.projectName}>Administrator</p>
               </Link>
             </motion.div>
             <motion.div
@@ -41,13 +41,13 @@ function Home() {
               exit={{ opacity: 0, y: "-5vh" }}
               transition={{ duration: 0.5, delay: 1 }}
             >
-              <Link className={clsx(styles.projectItem)} to="/portfolio/jobofferer">
+              <Link className={styles.projectItem} to="/portfolio/jobofferer">
                 <img
-                  className={clsx(styles.image)}
+                  className={styles.image}
                   src="assets/img/project2.png"
                   alt="JobOfferer Administrator"
                 />
-                <p className={clsx(styles.projectName)}>JobOfferer</p>
+                <p className={styles.projectName}>JobOfferer</p>
               </Link>
             </motion.div>
           </div>

@@ -18,12 +18,13 @@
 
 .description {
   text-align: center;
-  font-family: "Oswald", serif;
+  font-size: 2rem;
 }
 
 .facebookLink,
 .twitterLink {
   transition: color 0.3s ease-in-out;
+  font-size: 2rem;
 }
 .twitterLink:hover {
   color: #1d9bf0;

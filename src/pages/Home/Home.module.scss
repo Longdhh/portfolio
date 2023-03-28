@@ -1,8 +1,6 @@
 .breadCrumb {
-  text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 400;
-  font-family: "Oswald", serif;
   transition: all 0.3s ease;
 }
 
@@ -38,9 +36,8 @@
   transform: translateX(-50%) translateY(-50%);
   opacity: 0;
   transition: opacity 0.3s ease;
-  font-size: 5rem;
+  font-size: 4rem;
   cursor: pointer;
-  font-family: "Oswald", serif;
   color: black;
 }
 
